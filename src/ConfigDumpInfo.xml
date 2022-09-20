@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
+		<Metadata name="AccountingRegister.Хозрасчетный" id="341ff33b-51ea-4013-94c1-6d0a30648167" configVersion="e373c6890221b8b2853a5b6ce91a3ffa75d6512e">
+			<Metadata name="AccountingRegister.Хозрасчетный.Dimension.Подразделение" id="01ccee74-1fec-4bbf-867c-a8e8b4c715b5"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Resource.СуммаВР" id="111089cb-6ce0-48f9-beba-7e9851a6494a"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Dimension.Валюта" id="420caba4-0bde-47f6-a40d-b15eadce90a4"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Dimension.Организация" id="56cf31dc-f6fd-41f2-b2ea-f49a3d8e6b13"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Resource.СуммаНУ" id="6a838dbe-96a7-432c-87fa-7cf65e24f893"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Resource.Сумма" id="7c154f2a-4829-4a18-8a70-175952abc80d"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Resource.ВалютнаяСумма" id="865a1ffc-254e-4f88-8758-7689d70b7ccb"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Resource.Количество" id="9600fd52-b555-4b22-8d0d-ac081181d01e"/>
+			<Metadata name="AccountingRegister.Хозрасчетный.Resource.СуммаПР" id="e197d0da-0c26-4a73-b039-28e934068fab"/>
+		</Metadata>
 		<Metadata name="AccumulationRegister.НДСПоПриобретеннымЦенностям" id="e6f55382-743b-4467-852c-d21be35266b1" configVersion="132504053fdfba1baa96837f5d6b60a47963d369">
 			<Metadata name="AccumulationRegister.НДСПоПриобретеннымЦенностям.Dimension.СчетФактура" id="07b1bae4-5ff0-43ca-bc07-1158a03f59b2"/>
 			<Metadata name="AccumulationRegister.НДСПоПриобретеннымЦенностям.Dimension.СчетУчетаНДС" id="4543064a-cb80-453b-b93e-38da557c5426"/>
@@ -68,7 +79,7 @@
 		<Metadata name="CommonPicture.СостоянияДокумента" id="7fa267cf-8e82-4cee-9e0b-df3d38b612ad" configVersion="b6708938bd698c64a95be8920cec2e2c03aa1bcc"/>
 		<Metadata name="CommonPicture.влн_ВолнаКартинка" id="0a22a311-5009-4e49-8810-7fd141fb43af" configVersion="c900dd5a207544f4280b46875a762ef4d678526e"/>
 		<Metadata name="CommonPicture.влн_ВолнаКартинка.Picture" id="0a22a311-5009-4e49-8810-7fd141fb43af.0" configVersion="69f9a5323fbb5fac4836682af734e4006d1ca09e"/>
-		<Metadata name="Configuration.Волна" id="0e57062d-0d67-41b5-b30d-eff59362abad" configVersion="2cfbfd88ab24aa60908145054f91578da9e292a5"/>
+		<Metadata name="Configuration.Волна" id="0e57062d-0d67-41b5-b30d-eff59362abad" configVersion="49c6671a98bf951ad67e70cfbfc4bf8b6230f955"/>
 		<Metadata name="Constant.ВедетсяУчетВозвратнойТары" id="1ecd625b-4dcd-46c0-a707-cbe04cc74283" configVersion="429d914a282877bac1fe7725cecaa8fb8bdd24d7"/>
 		<Metadata name="Constant.ВестиУчетПодконтрольныхТоваровВЕТИС" id="45424d04-6245-4550-bf44-35680ca8dc22" configVersion="740ec3258288f669f57120d8fa07f4446e21b103"/>
 		<Metadata name="Constant.ИспользоватьДокументыПоступления" id="eeaaddec-2236-4084-b55d-9a2ac41f168b" configVersion="71cb2af377e79842a0ab54124ef6f14f1305a531"/>
@@ -245,11 +256,16 @@
 		<Metadata name="Report.ВО_КонтрольДокументыСЗакрытымиЗаказами" id="cc93f33c-2a0e-410e-a187-3be20a40ca44" configVersion="ae60958ba92e132910bfea0583bd990ba2e31d09"/>
 		<Metadata name="Report.ВО_КонтрольДокументыСЗакрытымиЗаказами.Template.ОсновнаяСхемаКомпоновкиДанных" id="97e989d4-7c42-41b4-9fa9-4d795af20444" configVersion="e0977d68c1d7ede89da5d406b0f1ba356ec6641e"/>
 		<Metadata name="Report.ВО_КонтрольДокументыСЗакрытымиЗаказами.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="97e989d4-7c42-41b4-9fa9-4d795af20444.0" configVersion="a39036733a53a8287fd8d08056a62a94b0b86777"/>
+		<Metadata name="Report.влн_КонтрольСчет10" id="7b3ad385-c93b-4ea6-bacb-1e7eedd13208" configVersion="b8bc57d3675fd655a3b5ebdab76604a089f38d37"/>
+		<Metadata name="Report.влн_КонтрольСчет10.Template.ОсновнаяСхемаКомпоновкиДанных" id="1327c972-a1ff-450d-b9ab-e3ffb1b6d6eb" configVersion="facd0542b501fb467ebff4c3a69db786914cf99b"/>
+		<Metadata name="Report.влн_КонтрольСчет10.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="1327c972-a1ff-450d-b9ab-e3ffb1b6d6eb.0" configVersion="9add54593ad7678f027db34b7f94097eff8488f2"/>
 		<Metadata name="Report.влн_Расхождения19100СРегистромПартииТоваров" id="8997d591-279d-4d63-9af8-2e037b0244b4" configVersion="1387b137c6be05d1a5584470c39169f91b24e78a"/>
 		<Metadata name="Report.влн_Расхождения19100СРегистромПартииТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="b13fdd61-8aaf-42d7-8005-0ebd692fe341" configVersion="960de71acc39adc4359fe6c990ac457a30f439e4"/>
 		<Metadata name="Report.влн_Расхождения19100СРегистромПартииТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="b13fdd61-8aaf-42d7-8005-0ebd692fe341.0" configVersion="b1ac29e82708a3cbfe19635c75d64af17bd07488"/>
 		<Metadata name="Role.БазовыеПраваБП" id="22f39300-9c35-4831-8dfa-1f3fdf0fd8a2" configVersion="8993124fb1cde8e948bfcda1eb034ec037fc2086"/>
 		<Metadata name="Role.БазовыеПраваБП.Rights" id="22f39300-9c35-4831-8dfa-1f3fdf0fd8a2.0" configVersion="89b56ba6ad2dcb177bf6c55cf6eefe056c754d22"/>
+		<Metadata name="Role.ЗакрытиеПериода" id="6f7f67f2-edcb-4465-afc2-bb5586009d4b" configVersion="78b8d6f6aadf27c0cd460124dd4f786fdde6887e"/>
+		<Metadata name="Role.ЗакрытиеПериода.Rights" id="6f7f67f2-edcb-4465-afc2-bb5586009d4b.0" configVersion="53e63ccbdb20f047c73ca22be0789314ae6bf674"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="8249078a-ecc8-49b5-a313-5975341151fe" configVersion="ebba08959d9908c1bb59c6259a5c5c775dc8437d"/>
 		<Metadata name="StyleItem.ДосьеГиперссылкаЦвет" id="a7a2baf7-565e-426d-8f28-0daf7a475d17" configVersion="e0be328648e07ccdb4c8e16f2b4e2e674f3c1434"/>
 		<Metadata name="StyleItem.ИтогиФонГруппы" id="046e8cf4-f6cc-44c5-9d23-b14cafef93d2" configVersion="43fe018e01f1bc55f32deb58815c58704f785c44"/>
@@ -260,6 +276,6 @@
 		<Metadata name="StyleItem.ЦветФонаНекорректногоКонтрагентаВДокументе" id="5f2221d5-4b6e-49db-900e-170a35bafc1a" configVersion="cb7b0ccc99055cdf79cff6ba8e2d8768d8bab1d9"/>
 		<Metadata name="StyleItem.ЦветФонаПредупреждения" id="79733c6c-6b4d-4cb2-ad30-be56ce8bb903" configVersion="ff524ebacb44460cc967fee18f30c3e486224ce9"/>
 		<Metadata name="Subsystem.Отчеты" id="eb37aef0-d9bc-40ae-a5ab-6245251125ef" configVersion="678fa1bde6887f5c6bcbcef6ad5a13bfe42b9d49"/>
-		<Metadata name="Subsystem.влн_Волна" id="55771065-2685-41b9-8e84-81b977c7d270" configVersion="97573b0f8ed9232d2ce5c0cc31ea86dc948a31fe"/>
+		<Metadata name="Subsystem.влн_Волна" id="55771065-2685-41b9-8e84-81b977c7d270" configVersion="39f49775af8fd2244e7be50cc261534202a09cea"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

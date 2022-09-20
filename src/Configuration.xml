@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>НПО Завод Волна</Vendor>
-			<Version>1.0.6</Version>
+			<Version>1.1.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -81,6 +81,7 @@
 			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
 			<CommonPicture>влн_ВолнаКартинка</CommonPicture>
 			<Role>БазовыеПраваБП</Role>
+			<Role>ЗакрытиеПериода</Role>
 			<CommonModule>влн_Хозрасчетный</CommonModule>
 			<CommonModule>влн_ДопРеквизиты</CommonModule>
 			<CommonModule>УчетТоваров</CommonModule>
@@ -138,11 +139,13 @@
 			<Enum>СпособыУчетаНДС</Enum>
 			<Report>ВО_КонтрольДокументыСЗакрытымиЗаказами</Report>
 			<Report>влн_Расхождения19100СРегистромПартииТоваров</Report>
+			<Report>влн_КонтрольСчет10</Report>
 			<InformationRegister>ДополнительныеСведения</InformationRegister>
 			<AccumulationRegister>НДСПоПриобретеннымЦенностям</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
+			<AccountingRegister>Хозрасчетный</AccountingRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
