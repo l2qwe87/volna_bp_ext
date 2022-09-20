@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="6b0e774c-9abc-46d4-b4ff-0bb24dca195a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КонтрольныеЗнакиГИСМ" category="Object">
+				<xr:TypeId>e3c50048-c707-428b-9547-ba98d40c7f1c</xr:TypeId>
+				<xr:ValueId>7b76d2da-236c-4feb-b655-5a7436eec6f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КонтрольныеЗнакиГИСМ" category="Ref">
+				<xr:TypeId>bf0d8e3c-f47c-401a-9bea-239b09bf6ed8</xr:TypeId>
+				<xr:ValueId>ac4bccdd-efd4-46a2-9023-1923c33505e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КонтрольныеЗнакиГИСМ" category="Selection">
+				<xr:TypeId>7e1d56a1-866a-4255-a52b-873bd6c0958f</xr:TypeId>
+				<xr:ValueId>e05264d4-325d-44d6-b64d-7b0671f11fb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КонтрольныеЗнакиГИСМ" category="List">
+				<xr:TypeId>e40f9348-7457-4f4c-8312-a10bafa5e660</xr:TypeId>
+				<xr:ValueId>431afaf3-c92c-4032-afc9-f6e2e589ab7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КонтрольныеЗнакиГИСМ" category="Manager">
+				<xr:TypeId>6d2b4e75-d57e-4721-946d-d3295a8d3abf</xr:TypeId>
+				<xr:ValueId>fce760c6-79df-4d70-94d8-5039b72c5545</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КонтрольныеЗнакиГИСМ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

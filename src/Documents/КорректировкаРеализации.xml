@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Document uuid="986c1928-602b-47e8-83d5-5593a072ac9b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаРеализации" category="Object">
+				<xr:TypeId>10bd19ce-caca-4a7a-bde5-0013a7f73a7f</xr:TypeId>
+				<xr:ValueId>44c4db1b-0303-4cef-8296-5908f9da80bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаРеализации" category="Ref">
+				<xr:TypeId>58f00053-9e46-4b66-ab76-544ca4f0dd68</xr:TypeId>
+				<xr:ValueId>8c69e635-b736-4a5e-9a9b-4950d8068c1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаРеализации" category="Selection">
+				<xr:TypeId>5d2b78a4-0dd9-4b68-9785-12cea006359d</xr:TypeId>
+				<xr:ValueId>2e070484-964c-4378-aed2-ffdacb471a79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаРеализации" category="List">
+				<xr:TypeId>94aff51a-c886-45f7-b941-4db2ba1919d9</xr:TypeId>
+				<xr:ValueId>5950948f-3ecc-43fe-aeb1-f3bfee8534ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаРеализации" category="Manager">
+				<xr:TypeId>a4fcdc9b-4b79-4529-8bb8-d2eed7ae1a03</xr:TypeId>
+				<xr:ValueId>44f3a6c0-1ac7-4da2-8ed4-725ca5878b31</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КорректировкаРеализации</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>26a1941f-e6b8-474e-911f-e5b0e2339db3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6de33c1e-759a-4a1b-a06f-e9b034f313a9">
+				<InternalInfo/>
+				<Properties>
+					<Name>КорректироватьНДС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>dc3c75cd-3026-439f-84e0-7bd8e1ff6262</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eb661477-e1d1-4cad-a5e3-609ae6f013a9">
+				<InternalInfo/>
+				<Properties>
+					<Name>КорректироватьБУиНУ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c0283c52-921b-4a93-9af1-641401545c34</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8d31e4d9-04b6-4946-840b-0fb50a495f2c">
+				<InternalInfo/>
+				<Properties>
+					<Name>РучнаяКорректировка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7eddfc45-d951-45f0-984c-aff3cc46a947</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="f31df535-6caf-4856-9ef4-21a682a1e3ca">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.КорректировкаРеализации.Товары" category="TabularSection">
+						<xr:TypeId>7a1284ca-6d52-4497-8e15-4f5479b6c47a</xr:TypeId>
+						<xr:ValueId>ee7f97d0-b60b-4afa-b40c-85017993f488</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.КорректировкаРеализации.Товары" category="TabularSectionRow">
+						<xr:TypeId>3acefe6e-2432-499a-bd46-da4c660a8bd1</xr:TypeId>
+						<xr:ValueId>e502723e-1b48-44a9-b00b-b61dcf343505</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a1d19cfe-01c3-454c-832c-60c18621f05c</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="133f8d2b-ccb0-4c22-882d-337117f68245">
+						<InternalInfo/>
+						<Properties>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>8092663b-bdd8-4673-817e-f62d067f6f36</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9242f0b3-cbb1-4604-ba49-ec41ec6497c0">
+						<InternalInfo/>
+						<Properties>
+							<Name>СуммаНДСДоИзменения</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>ae6f4195-51df-4ef7-9951-da1abb8147f6</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4d7f9977-ba47-4c69-9887-e6621f1ef1dc">
+						<InternalInfo/>
+						<Properties>
+							<Name>СуммаНДС</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>c5e1bf51-8da3-4734-9d6c-bbe89d6d024e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="937667b7-47ad-432f-81e3-358e8669530e">
+						<InternalInfo/>
+						<Properties>
+							<Name>СуммаДоИзменения</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>ef55c5f7-cfea-4033-abfb-91b9d21e78d5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3a1c3160-dcaf-48da-b09c-4644e22bf55c">
+						<InternalInfo/>
+						<Properties>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>74726752-fb3a-4394-a58f-28927ea418c1</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

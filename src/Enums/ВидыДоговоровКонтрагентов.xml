@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="0da9483b-240c-4ef7-a4a8-8d44936ae37c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДоговоровКонтрагентов" category="Ref">
+				<xr:TypeId>7844e7f7-0cec-4e9f-9c25-1c6bcc8ad8af</xr:TypeId>
+				<xr:ValueId>8cd46169-e17c-4b62-979a-f5a326e9959c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДоговоровКонтрагентов" category="Manager">
+				<xr:TypeId>7f83e213-5975-41c5-9aae-14b952239550</xr:TypeId>
+				<xr:ValueId>1e879099-1641-4e3e-995c-4aae6947220c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДоговоровКонтрагентов" category="List">
+				<xr:TypeId>83d11a4b-b432-4b11-a9c4-35f26515b451</xr:TypeId>
+				<xr:ValueId>b1b75454-d418-4fe1-834a-a9bd45d6c625</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДоговоровКонтрагентов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b53c1d96-fba1-4672-bb30-ef90ff54ef50">
+				<InternalInfo/>
+				<Properties>
+					<Name>СПокупателем</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
