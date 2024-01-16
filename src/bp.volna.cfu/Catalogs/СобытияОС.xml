@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="3aff5113-a91d-4496-9869-8df7a97419d5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СобытияОС" category="Object">
+				<xr:TypeId>78ca6e3e-aace-4747-995f-1f07c9c37aa3</xr:TypeId>
+				<xr:ValueId>ec087bd1-b017-4c30-adf6-25ae10e00035</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СобытияОС" category="Ref">
+				<xr:TypeId>2cee8a5c-b5fb-4499-95c9-a1b13d852448</xr:TypeId>
+				<xr:ValueId>0c89f7e4-6e6c-41f6-8cc3-95d097ee0a94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СобытияОС" category="Selection">
+				<xr:TypeId>3336b76c-2281-4834-9860-3a36f1c26373</xr:TypeId>
+				<xr:ValueId>5fbfdb87-f31e-40f3-b93a-e49a4f1f12d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СобытияОС" category="List">
+				<xr:TypeId>c85a4117-30be-4c6b-badf-f96ba99967cd</xr:TypeId>
+				<xr:ValueId>82dc2de3-42f1-4bc6-9a94-8a24d041c2c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СобытияОС" category="Manager">
+				<xr:TypeId>4c02c442-25be-4b25-8a9c-1ce79d5caa6f</xr:TypeId>
+				<xr:ValueId>526eb4d1-9fe0-4363-8c05-001340f62900</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СобытияОС</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

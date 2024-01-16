@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="2a5dbef6-80c4-46d0-a991-a0c0b8e406e8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийРеализацияТоваров" category="Ref">
+				<xr:TypeId>b64461cf-83ff-45db-831b-375385223038</xr:TypeId>
+				<xr:ValueId>52be1e06-b979-4afc-b12d-942b1775a92e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийРеализацияТоваров" category="Manager">
+				<xr:TypeId>00803adb-c505-4fb5-87c2-1265d60768fd</xr:TypeId>
+				<xr:ValueId>5d96ddae-5a2c-4337-9f80-9c2ee45d6922</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийРеализацияТоваров" category="List">
+				<xr:TypeId>3ceee57b-7b11-4e5d-b74b-3676bbcd11dc</xr:TypeId>
+				<xr:ValueId>91431085-a2e3-4895-a1a7-550b237cdfa8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийРеализацияТоваров</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c4cc0c02-2dd7-421a-9d8b-3a27249e5084">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтгрузкаБезПереходаПраваСобственности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9a245f7c-9707-4878-906e-8066693a88b4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AccumulationRegister uuid="e6f55382-743b-4467-852c-d21be35266b1">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.НДСПоПриобретеннымЦенностям" category="Record">
+				<xr:TypeId>beec7271-e36c-4bce-a26e-0a3ee267a670</xr:TypeId>
+				<xr:ValueId>dda6902d-e59b-44db-a40b-144a8d8f5ace</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.НДСПоПриобретеннымЦенностям" category="Manager">
+				<xr:TypeId>32cfed71-a5fb-48b2-8a74-1405bb9e0753</xr:TypeId>
+				<xr:ValueId>a773ebb2-79d8-42bb-ac9b-07a7c12138fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.НДСПоПриобретеннымЦенностям" category="Selection">
+				<xr:TypeId>d518d80a-ef6d-44ef-9a1f-d7e7892cd550</xr:TypeId>
+				<xr:ValueId>1cec7533-dcc0-4daf-ab40-5821d736bd9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.НДСПоПриобретеннымЦенностям" category="List">
+				<xr:TypeId>2fb5d5f3-b461-4bc1-9121-84257c475765</xr:TypeId>
+				<xr:ValueId>bd026f98-6f1d-4b7a-a553-211ac251a648</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.НДСПоПриобретеннымЦенностям" category="RecordSet">
+				<xr:TypeId>bd395b83-04ff-4be7-9717-1de09eda0d74</xr:TypeId>
+				<xr:ValueId>8c5b7cdc-5e6f-4af7-86d6-f414db538a3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.НДСПоПриобретеннымЦенностям" category="RecordKey">
+				<xr:TypeId>6b6626a4-1f7a-4515-bdcf-f217182dca59</xr:TypeId>
+				<xr:ValueId>4c191df3-59df-4836-b608-990762f88f61</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НДСПоПриобретеннымЦенностям</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8aaf1caf-b09f-4e14-b9ec-b231b04ee2bc</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="891435bf-cd2e-4769-9dae-c740907e4077">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>67cd071d-6742-48bc-a17e-461549070039</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="07b1bae4-5ff0-43ca-bc07-1158a03f59b2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетФактура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c565f365-5fc4-45da-a805-4a896fa3fb9a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4543064a-cb80-453b-b93e-38da557c5426">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетУчетаНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>39a86518-9792-4e9b-8897-88b6ec547f39</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
